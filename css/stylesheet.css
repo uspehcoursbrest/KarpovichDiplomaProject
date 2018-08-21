@@ -1,0 +1,883 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Roboto";
+    font-weight: 300;
+    background-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-weight: 300;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+input, button, textarea {
+    outline: none;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+button {
+    cursor: pointer;
+}
+
+.cfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.topLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topLine {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65px;
+}
+
+.topLine {
+    /*width: 100%;*/
+    vertical-align: middle;
+    text-align: center;
+    background-size: auto auto;
+    margin-left: -58px;
+    padding-bottom: 10px;
+}
+
+/*.topLine li{*/
+/*width: 14.2857%;*/
+/*float: left;*/
+/*}*/
+
+header .topLine a {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 55px;
+    font-weight: 300;
+}
+
+.phones {
+    margin-left: 30px;
+}
+
+.bottomHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.social {
+    margin: 45px;
+}
+
+.social a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.financeChat {
+    margin-left: 35px;
+    margin-right: 70px;
+}
+
+.financeChat a {
+    margin-bottom: 5px;
+}
+
+/*.bottomHeader {*/
+/*display: table;*/
+/*}*/
+
+/*.bottomHeader .language {*/
+/*text-align: center;*/
+/*display: table-cell;*/
+/*vertical-align: center;*/
+/*}*/
+
+.languageButton {
+    margin-top: -33px;
+    margin-left: 18px;
+}
+
+.signIn a:nth-child(2) {
+    margin-left: -100px;
+    padding: 40px;
+}
+
+/*.bottomHeader .social {*/
+/*text-align: center;*/
+/*display: table-cell;*/
+/*vertical-align: center;*/
+/*}*/
+/*.bottomHeader .logo {*/
+/*text-align: center;*/
+/*display: table-cell;*/
+/*vertical-align: center;*/
+/*}*/
+
+/*.bottomHeader .financeChat {*/
+/*text-align: center;*/
+/*display: table-cell;*/
+/*vertical-align: center;*/
+/*}*/
+
+/*.bottomHeader .signIn {*/
+/*text-align: center;*/
+/*display: table-cell;*/
+/*vertical-align: center;*/
+/*}*/
+
+.bottomHeader span {
+    font-size: 14px;
+    line-height: 22px;
+    color: #767676;
+}
+
+.bottomHeader button {
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+header .phone span {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header .financeChat a {
+    font-size: 14px;
+    line-height: 22px;
+    color: #767676;
+    text-decoration: none;
+}
+
+header .signIn a {
+    font-size: 14px;
+    line-height: 22px;
+    color: #767676;
+    text-decoration: none;
+}
+
+.invPlan h2 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #434343;
+    font-weight: normal;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.invPlan button {
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.invPlan span {
+    font-size: 16px;
+    line-height: 20px;
+    color: #4d4d4d;
+}
+
+.invPlan span > span {
+    font-size: 16px;
+    line-height: 20px;
+    color: #2279d8;
+!important;
+}
+
+/*.invPlan img:nth-child(2) {*/
+/*position: relative;*/
+/*}*/
+
+.invPlan div:nth-child(1) {
+    display: flex;
+    margin-left: 50px;
+}
+
+.invPlan {
+    display: block;
+    left: 0;
+    top: 0;
+    position: relative;
+}
+
+.invPlan img + h5 {
+    font-size: 70px;
+    line-height: 29px;
+    color: #ffffff;
+    vertical-align: -100%;
+    position: absolute;
+    top: 47%;
+    left: 11%;
+    letter-spacing: 0px;
+}
+
+.invPlan h5 {
+    font-size: 111px;
+    line-height: 28px;
+    color: #ffffff;
+    vertical-align: -100%;
+    position: absolute;
+    top: 55%;
+    left: 49%;
+}
+
+.invPlan span:nth-child(5) {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 90%;
+}
+
+.invPlan span:nth-child(6) {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+}
+
+.invPlan span:nth-child(7) {
+    display: block;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+}
+
+.banner {
+    margin-left: 10%;
+}
+
+.percent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainRight {
+    flex-direction: column;
+    width: 33.3333%;
+}
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    margin-left: 30px;
+}
+
+.calc label {
+    font-size: 22px;
+    line-height: 22px;
+    color: #2a2a2a;
+    padding-bottom: 25px;
+}
+
+.calc span {
+    font-size: 16px;
+    line-height: 22px;
+    color: #3d3d3d;
+    padding-bottom: 15px;
+}
+
+.calc span:nth-child(4) {
+    font-size: 14px;
+    line-height: 22px;
+    color: #343434;
+    margin-top: 20px;
+}
+
+.calc span:nth-child(5) {
+    font-size: 14px;
+    line-height: 28px;
+    color: #343434;
+    margin-top: 10px;
+}
+
+.calc span:nth-child(6) {
+    font-size: 14px;
+    line-height: 28px;
+    color: #343434;
+}
+
+.calc span.benefitsBlue {
+    font-size: 14px;
+    line-height: 28px;
+    color: #2176d4;
+    padding-left: 30px;
+}
+
+.calc button {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 188px;
+    height: 53px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #343434;
+    font-weight: normal;
+    outline: none;
+    border: 0;
+    background: transparent;
+    margin-top: 26px;
+}
+
+.calc button > p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #343434;
+    font-weight: normal;
+}
+
+.stat {
+    display: table;
+}
+
+.stat span {
+    display: table-row;
+    padding: 10px;
+}
+
+.stat .benefitsBlue {
+    display: table-cell;
+    text-align: right;
+    vertical-align: center;
+    padding-left: 80px;
+}
+
+.stat h3 {
+    font-size: 22px;
+    line-height: 22px;
+    color: #2a2a2a;
+}
+
+.stat span {
+    font-size: 14px;
+    line-height: 12px;
+    color: #3a3a3a;
+}
+
+.stat span.benefitsBlue {
+    font-size: 14px;
+    line-height: 12px;
+    color: #2176d4;
+}
+
+.referalProg ul {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+}
+
+.levelLineMain {
+    /*display: table;*/
+    /*width: 100%;*/
+    display: flex;
+}
+
+.levelLineMain li {
+    /*display: table-cell;*/
+    /*text-align: left;*/
+    /*vertical-align: middle;*/
+    margin-left: 120px;
+
+}
+
+.levelLineMain li:first-child {
+    margin-left: 250px;
+}
+
+.levelLineMain h3 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #373737;
+}
+
+.levelLineMain li span {
+    font-size: 16px;
+    line-height: 22px;
+    color: #505050;
+    font-weight: normal;
+}
+
+.levelLineMain li span.levelPercent {
+    font-size: 18px;
+    line-height: 22px;
+    color: #2a2a2a;
+    font-weight: normal;
+}
+
+.aboutText {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.aboutText {
+    display: table;
+    width: 100%;
+}
+
+.aboutUs .aboutInfo {
+    display: flex;
+}
+
+.aboutInfo h3 {
+    font-size: 28px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 300;
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+.aboutText p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    padding: 5px;
+    padding-right: 60px;
+}
+
+.aboutText .video {
+    padding-right: 30px;
+}
+
+.advMain ul {
+    display: table;
+}
+
+.advMain ul ul {
+    display: table-row;
+}
+
+.advMain li {
+    display: table-cell;
+    padding-top: 45px;
+}
+
+.advMain li span {
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.process {
+    display: flex;
+}
+
+.process li {
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.process h3 {
+    font-size: 28px;
+    line-height: 24px;
+    color: #323232;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.howWorks p {
+    font-size: 20px;
+    line-height: 25px;
+    color: #3c3c3c;
+}
+
+.benefits li span {
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.adv {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.adv ul {
+    display: flex;
+}
+
+.adv li img {
+    padding: 30px;
+}
+
+.adv li p {
+    font-size: 18px;
+    line-height: 18px;
+    color: #323232;
+    padding: 39px;
+}
+
+.adv li span {
+    font-size: 18px;
+    line-height: 18px;
+    color: #323232;
+}
+
+.help {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 270px;
+    width: 100%;
+    display: table;
+}
+
+.help label {
+    display: table-row;
+}
+
+.inputs {
+    display: table-row;
+}
+
+.help label {
+    font-size: 26px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.help span {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.help button {
+    outline: none;
+    border: 0;
+    background: transparent;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.help span:nth-child(5) {
+    font-size: 13px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.help p {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.comments h3 {
+    font-size: 28px;
+    line-height: 24px;
+    color: #2e2e2e;
+}
+
+.comments span {
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.comments span.clientName {
+    font-size: 20px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.comments p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #595959;
+}
+
+.comments {
+    display: flex;
+}
+
+.comments h3 {
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.comments div {
+    display: table-cell;
+}
+
+.clientName {
+    flex-direction: column;
+}
+
+.comments button {
+    outline: none;
+    border: 0;
+    background: transparent;
+    font-size: 13px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.clients {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.clients {
+    display: flex;
+}
+
+.clients button {
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+footer .container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+}
+
+footer .logo {
+    flex-direction: column;
+}
+
+footer .connection {
+    margin-left: 65px;
+}
+
+footer .aboutComp {
+    margin-left: 80px;
+}
+
+footer .clientInfo {
+    margin-left: 65px;
+}
+
+.footerRight {
+    display: table;
+}
+
+footer .payment {
+    display: table-row;
+    margin-left: 70px;
+    width: 335px;
+    height: 125px;
+}
+
+footer .social {
+display: table-row;
+}
+
+footer span {
+    font-size: 13px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+footer li a {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .phone {
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer li:last-child {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+footer a[class^="icon"] {
+    color: #ffc219;
+}
+
+footer p[class^="icon"] {
+    color: #ffc219;
+}
+
+footer .aboutComp span {
+    font-size: 16px;
+    line-height: 32px;
+    color: #ffc219;
+}
+
+footer .clientInfo span {
+    font-size: 16px;
+    line-height: 32px;
+    color: #ffc219;
+}
+
+footer .payment span {
+    font-size: 16px;
+    line-height: 32px;
+    color: #ffc219;
+}
+
+footer .aboutComp a {
+    font-size: 14px;
+    line-height: 32px;
+    color: #ffffff;
+}
+
+footer .clientInfo a {
+    font-size: 14px;
+    line-height: 32px;
+    color: #ffffff;
+}
+
+footer .social a {
+    color: #ffc219;
+    text-decoration: none;
+}
+
+.breadCrumbs {
+    display: table;
+}
+
+.breadCrumbs li {
+    display: table-cell;
+}
+
+.breadCrumbs li p {
+    font-size: 13px;
+    line-height: 32px;
+    color: #075fa9;
+    padding-left: 5px;
+}
+
+.breadCrumbs li a {
+    font-size: 13px;
+    line-height: 32px;
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+.aboutUsPage {
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+}
+
+.aboutUsPage .aboutText {
+    width: 50%;
+    float: left;
+}
+
+.aboutUsPage .video {
+    width: 25%;
+    float: left;
+}
+
+.aboutUsPage .doc {
+    width: 25%;
+    float: right;
+}
+
+.aboutUsPage .aboutUs h4 {
+    font-size: 28px;
+    line-height: 25px;
+    color: #17548c;
+    font-weight: 300;
+}
+
+.aboutUsPage .aboutText p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #383838;
+}
+
+.aboutUsPage .video img {
+    width: 273px;
+    height: 185px;
+}
+
+.aboutUsPage .doc img {
+    width: 145px;
+    height: 185px;
+}
+
+.benefits h3 {
+    font-size: 28px;
+    line-height: 18px;
+    color: #154366;
+    font-weight: 300;
+}
+
+.benefitsIcons li p {
+    font-size: 18px;
+    line-height: 18px;
+    color: #383838;
+}
+
+.benefitsText span {
+    font-size: 18px;
+    line-height: 18px;
+    color: #414141;
+}
+
+.benefitsText p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #414141;
+}
+
+.howText h3 {
+    font-size: 28px;
+    line-height: 18px;
+    color: #154366;
+    font-weight: 300;
+}
+
+.howText li span {
+    font-size: 20px;
+    line-height: 25px;
+    color: #3c3c3c;
+    font-weight: 300;
+}
+
+.clients h4 {
+    font-size: 28px;
+    line-height: 18px;
+    color: #5e5e5e;
+    font-weight: 300;
+}
